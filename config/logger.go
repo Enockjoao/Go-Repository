@@ -34,7 +34,7 @@ func (l *Logger) Debug(v ...interface{}) {
 func (l *Logger) Info(v ...interface{}) {
 	l.info.Println(v...)
 }
-func (l *Logger) warn(v ...interface{}) {
+func (l *Logger) Warn(v ...interface{}) {
 	l.warning.Println(v...)
 }
 func (l *Logger) Error(v ...interface{}) {
