@@ -11,7 +11,7 @@ var (
 
 func main() {
 	logger = config.GetLogger("main")
-	//Initialize Configs
+	// Initialize Configs
 	err := config.Init()
 	if err != nil {
 		logger.Errorf("config Initialization error: %v", err)
